@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Help and questions
+    url: https://discord.gg/fmYtxask98
+    about: Ask about installation, configuration, or using Phonolite.
+  - name: Report a security vulnerability
+    url: https://github.com/PhonoliteOrg/.github/blob/main/SECURITY.md
+    about: Use the private reporting contact in the security policy.

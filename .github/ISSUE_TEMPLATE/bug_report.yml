@@ -1,0 +1,42 @@
+name: Bug report
+description: Report a reproducible problem with the app or server.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Open this issue in the repository for the affected app or server.
+        For security vulnerabilities, follow our [security policy](https://github.com/PhonoliteOrg/.github/blob/main/SECURITY.md).
+        Remove passwords, tokens, and private information from logs and screenshots.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: App and server versions, or commit IDs if built from source.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system and version on the affected device or server.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Describe what you did so someone else can reproduce the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Logs or screenshots
+      description: Include relevant details if available. Remove private information.

@@ -1,27 +1,35 @@
-# Welcome to Phonolite
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PhonoliteOrg/.github/main/profile/assets/phonolite.png" width="96" alt="Phonolite logo">
+</p>
 
-Phonolite is an open-source music streaming software suite designed for users who want control over their listening experience. The project aims to build high-performance, cross-platform tools for music enthusiasts and self-hosters.
+<h1 align="center">Phonolite</h1>
 
+<p align="center">
+  <a href="https://github.com/PhonoliteOrg/phonolite-server/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0--or--later-blue" alt="License: AGPL-3.0-or-later"></a>
+  <a href="https://github.com/PhonoliteOrg/phonolite-app/releases/latest"><img src="https://img.shields.io/github/v/release/PhonoliteOrg/phonolite-app?label=app" alt="Latest app release"></a>
+  <a href="https://github.com/PhonoliteOrg/phonolite-app/releases"><img src="https://img.shields.io/github/downloads/PhonoliteOrg/phonolite-app/total" alt="App release downloads"></a>
+  <br>
+  <a href="https://discord.gg/fmYtxask98"><img src="https://img.shields.io/badge/chat-Discord-5865F2" alt="Chat on Discord"></a>
+  <a href="https://github.com/PhonoliteOrg/phonolite-app/releases.atom"><img src="https://img.shields.io/badge/RSS-releases-orange" alt="App releases RSS feed"></a>
+  <a href="https://github.com/PhonoliteOrg/phonolite-server/commits/main.atom"><img src="https://img.shields.io/badge/RSS-server%20commits-orange" alt="Server commits RSS feed"></a>
+</p>
 
-## Tech Stack
-- **Frontend:** Dart & Flutter
-- **Backend:** Rust
-- **Philosophy:** Open source, local-first, and community-driven.
+Phonolite is free, open-source software for streaming your own music library.
+Run the server on your own computer, then use the app to browse and play your
+music or download it for offline listening. You supply the music files.
 
+## Projects
 
-## 🚀 Featured Projects
+| Repository | Purpose |
+| --- | --- |
+| [phonolite-server](https://github.com/PhonoliteOrg/phonolite-server) | Rust server that scans your music library, manages user accounts, and streams audio. |
+| [phonolite-app](https://github.com/PhonoliteOrg/phonolite-app) | Flutter app for listening, playlists, and offline downloads. |
 
-### [phonolite-app](https://github.com/PhonoliteOrg/phonolite-app)
-The flagship mobile/desktop application built with **Dart** and **Flutter**. It provides a sleek, modern interface for streaming your personal music library.
+## Get started
 
+- [Download the Windows app](https://github.com/PhonoliteOrg/phonolite-app/releases/latest) or [join the iOS TestFlight](https://testflight.apple.com/join/2wgmaSuj).
+- [Build and set up the server](https://github.com/PhonoliteOrg/phonolite-server#readme).
+- [Ask for help on Discord](https://discord.gg/fmYtxask98) or report a bug in the relevant repository.
 
-## Legal Notices
-Phonolite is a media player, not a content provider.
-
-This software suite empowers its users to enjoy their own media. However, please note:
-
-    No Content Provided: Phonolite does not provide, host, or source any music or media files. It is a suite of tools designed to manage and stream your existing personal library.
-
-    Ethical Sourcing: Users are expected to use Phonolite with music and media they have ethically and legally acquired. This includes digital purchases, ripped physical media (CDs/Vinyl), or content licensed for personal use.
-
-    Legal Compliance: We do not condone or support the use of our software for copyright infringement or the playback of illegally obtained content. By using Phonolite, you acknowledge that you are responsible for ensuring your media library complies with local laws and regulations.
+For patches, see [Contributing](https://github.com/PhonoliteOrg/.github/blob/main/CONTRIBUTING.md).
+For private vulnerability reports, see [Security](https://github.com/PhonoliteOrg/.github/blob/main/SECURITY.md).
